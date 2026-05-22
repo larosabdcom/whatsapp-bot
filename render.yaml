@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: whatsapp-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    plan: free
